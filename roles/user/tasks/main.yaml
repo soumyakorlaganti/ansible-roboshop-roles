@@ -1,0 +1,15 @@
+- name: nodejs setup
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: nodejs-setup.yaml
+
+- name: systemd setup
+  ansible.builtin.import_role:
+    name: common
+    tasks_from: systemd-setup.yaml
+
+- name: start catalogue
+  ansible.builtin.service:
+    name: catalogue
+    state: restarted
+    enabled: yes
