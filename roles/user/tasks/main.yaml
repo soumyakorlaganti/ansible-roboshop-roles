@@ -8,8 +8,8 @@
     name: common
     tasks_from: systemd-setup.yaml
 
-- name: start catalogue
+- name: start user
   ansible.builtin.service:
-    name: catalogue
+    name: user
     state: restarted
     enabled: yes
