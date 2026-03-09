@@ -1,4 +1,4 @@
-- name: call common role 
+- name: call common role
   #ansible.builtin.import_role:
   ansible.builtin.include_role:
     name: common
