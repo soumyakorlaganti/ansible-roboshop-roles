@@ -4,7 +4,7 @@
 
 - name: message-2
   ansible.builtin.debug:
-    mag: "hi from MSG-2"
+    msg: "hi from MSG-2"
 
 - name: message-3
   ansible.builtin.debug:
