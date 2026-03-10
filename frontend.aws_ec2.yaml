@@ -10,7 +10,7 @@ compose:
   # This sets the ansible_host variable to connect with the private ip address without changing the host name.
   ansible_host: private_ip_address
 keyed_groups:
-- seperator: ''
+- separator: ''
   key: tags.Component
 
 
