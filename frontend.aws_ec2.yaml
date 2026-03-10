@@ -1,4 +1,4 @@
-plugin: amazon.aws.aws_ec2
+plugin: amazon.aws.aws_ec2    #dynamic inventory yaml file
 regions:
 - us-east-1
 hostnames:
