@@ -1,5 +1,9 @@
 plugin: amazon.aws.aws_ec2
 regions:
 - us-east-1
+hostnames:
+- ip-address
+
+
 
 # if we run this will get all instances under us-east-1
